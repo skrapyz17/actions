@@ -13,7 +13,7 @@ jobs:
 
   other:
     runs-on: ubuntu-latest
-
+    needs: [hola]
     steps:
     - name: Hola Mundo
       run: echo "GOO A TODO"
