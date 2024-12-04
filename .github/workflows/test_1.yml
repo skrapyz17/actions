@@ -4,8 +4,8 @@ name: Hola mundo
 on: 
   push:
     branches:
-      -testEvento
-
+      - main
+      - testEvento
 jobs:
   hola:
     runs-on: ubuntu-latest
