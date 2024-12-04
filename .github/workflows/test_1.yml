@@ -11,9 +11,9 @@ jobs:
       - name: LS
         run: ls -al
 
-    other:
-      runs-on: ubuntu-latest
+  other:
+    runs-on: ubuntu-latest
 
-      steps:
-      - name: Hola Mundo
-        run: echo "GOO A TODO"   
+    steps:
+    - name: Hola Mundo
+      run: echo "GOO A TODO"   
