@@ -9,4 +9,11 @@ jobs:
 
     steps:
       - name: LS
-        run: ls -al 
+        run: ls -al
+
+    other:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Hola Mundo
+        run: echo "GOO A TODO"   
