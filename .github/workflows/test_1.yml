@@ -16,4 +16,14 @@ jobs:
 
     steps:
     - name: Hola Mundo
-      run: echo "GOO A TODO"   
+      run: echo "GOO A TODO"
+
+    - name: touch file
+      run: touch hola.txt
+
+    - name: set text
+      run: echo "hola locooo tu puedes" >> hola.txt
+
+    - name: Read file
+      run: cat hola.txt 
+           
